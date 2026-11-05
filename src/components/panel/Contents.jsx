@@ -41,4 +41,4 @@ function ProjectsPanel({ projects }) {
   );
 }
 
-export {AboutPanel,SkillsPanel,ProjectsPanel}
+export {AboutPanel,SkillsPanel,ProjectsPanel};
