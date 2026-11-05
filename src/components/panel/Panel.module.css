@@ -1,0 +1,69 @@
+.container{
+  margin-top: 20px;
+  flex: 1;
+}
+
+/* About styles */
+.text { 
+    margin: 0 0 16px; 
+    color: #5B6080; 
+    font-size: 15px; 
+}
+
+/* Skills style*/
+.skill { 
+    margin-bottom: 14px; 
+}
+
+.skillTop { 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 6px; 
+    font-size: 14px; 
+    font-weight: 600; 
+}
+
+/* Projects styles*/
+.project { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 12px; 
+    padding: 12px 0; 
+    border-top: 1px solid #E3E5F0; 
+}
+
+.project:first-child { 
+    padding-top: 0; 
+    border-top: 0; 
+}
+
+.project h2 { 
+    margin: 0; 
+    font-size: 15px; 
+    font-weight: 600; 
+}
+
+.project p { 
+    margin: 0; 
+    font-size: 13px; 
+    color: #5B6080; 
+}
+
+.tag { 
+    flex: none; 
+    padding: 4px 10px; 
+    border-radius: 99px; 
+    font-size: 
+    12px; font-weight: 600; 
+}
+
+.done { 
+    background: #DDF3EA; 
+    color: #0F7B5F; 
+}
+
+.progress { 
+    background: #FBEBD2; 
+    color: #9A5B0B; 
+}

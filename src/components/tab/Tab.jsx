@@ -2,15 +2,8 @@ import { useState, useEffect } from 'react';
 import Cookies from "js-cookie";
 import styles from './Tab.module.css';
 
-function Tabs({ tabs }) {
+function Tabs({ tabs,activeId,setActiveId }) {
   const activeTab = Cookies.get("active-tab");
-  const [activeId, setActiveId] = useState(+activeTab || tabs[0].id);
-  const active = tabs.find((t) => t.id === activeId);
-
-  useEffect(()=>{
-    Cookies.set("active-tab", activeId);
-  },[activeId])
-
 
   return (
     <div>
